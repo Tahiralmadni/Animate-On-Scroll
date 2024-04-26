@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animate On Scroll Library</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+       <script
+      src="https://kit.fontawesome.com/d16a401f11.js"
+      crossorigin="anonymous"></script>
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="main">
+      <div class="container" >
+        <div class="overlay"></div>
+      </div>
+      <div class="AOS" data-aos="zoom-in">
+        <h1>AOS</h1>
+        <p>Animate On Scroll Library</p>
+        <div class="scroll">
+          <p>Scroll Down</p>
+        </div>
+      </div>
+    </section>
+    <div class="fade-container">
+      <div class="Fade">
+        <h2>FADE</h2>
+      </div>
+
+      <section class="fade-section first">
+        <div class="card" data-aos="fade-up">
+          <p>
+            &lt;div <span>data-aos</span>=<span class="orange">"fade-up"</span
+            >&gt;&lt;div&gt;
+          </p>
+        </div>
+      </section>
+        <section class="fade-section second">
+        <div class="card" data-aos="fade-down">
+          <p>
+            &lt;div <span>data-aos</span>=<span class="orange">"fade-down"</span
+            >&gt;&lt;div&gt;
+          </p>
+        </div>
+       </section>
+       <section class="fade-section ">
+        <div class="card" data-aos="fade-right">
+          <p>
+            &lt;div <span>data-aos</span>=<span class="orange">"fade-right"</span
+            >&gt;&lt;div&gt;
+          </p>
+        </div>
+       </section>
+    </div>
+    <section class="fade-section second">
+      <div class="card" data-aos="fade-left">
+        <p>
+          &lt;div <span>data-aos</span>=<span class="orange">"fade-left"</span
+          >&gt;&lt;div&gt;
+        </p>
+      </div>
+     </section>
+ 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
